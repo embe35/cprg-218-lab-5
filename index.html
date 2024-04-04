@@ -20,16 +20,21 @@
   </header>
   <section class="option-1">
     <div class="option-container">
-      <h2>Option 1</h2>
+      <h2>Current Weather</h2>
       <p>Use a dropdown to change the API endpoint or data</p>
-      <select id="dropdown" class="dropdown"></select>
-      <button id="submit-button" class="button">Submit</button>
+      <select id="dropdown" class="dropdown">
+        <option value="http://api.weatherapi.com/v1/forecast.json?key=bfc506191127437082c191036242803&q=Calgary&days=1&aqi=yes&alerts=no">Calgary</option>
+        <option value="http://api.weatherapi.com/v1/forecast.json?key=bfc506191127437082c191036242803&q=Iquitos&days=1&aqi=yes&alerts=no">Iquitos</option>
+        <option value="http://api.weatherapi.com/v1/forecast.json?key=bfc506191127437082c191036242803&q=Nairobi&days=1&aqi=yes&alerts=no">Nairobi</option>
+        <option value="http://api.weatherapi.com/v1/forecast.json?key=bfc506191127437082c191036242803&q=Sydney&days=1&aqi=yes&alerts=no">Sydney</option>
+      </select>
+      <button id="submit-button" class="button">Get Weather</button>
     </div>
     <div class="container">
       <ul id="option-1-results" class="card-container"></ul>
     </div>
   </section>
-  <section class="option-2">
+  <!--<section class="option-2">
     <div class="option-container">
       <h2>Option 2</h2>
       <p>Display a list of cards using the API</p>
@@ -41,17 +46,17 @@
   <section class="option-2-enhanced">
     <div class="option-container">
       <h2>Option 2 Enhanced</h2>
-      <p>Add a search box to filter the list of cards.</p>
+      <p>Add a search box to filter the list of cards.</p>-->
       <!--Search box to find content on cards-->
-      <div class="box" style="text-align: center;">
+      <!--<div class="box" style="text-align: center;">
         <input id="searchbar" class="search" type="text" name="search" placeholder="Search..">
       </div>
     </div>
-    <div class="container">
+    <div class="container">-->
       <!--Display cards-->
-      <ul id="option-2-enhanced-results" class="card-container"></ul>
+      <!-- <ul id="option-2-enhanced-results" class="card-container"></ul>
     </div>
-  </section>
+  </section> -->
   <script src="scripts.js" defer></script>
 </body>
 

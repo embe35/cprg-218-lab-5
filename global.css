@@ -1,21 +1,25 @@
+body {
+  background-color: #f2f8fc;
+}
+
 /* Sections */
 .container {
-  margin: 3rem auto;
+  margin: 1rem auto;
   max-width: 75rem;
-  padding: 3rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   position: relative;
 }
 
 /* Section Header Content */
 .header-container {
-  background-color: #DDDDDD;
+  background-color: #8ECAE6;
   text-align: center;
-  padding: 6rem 1rem;
+  padding: 1rem;
 }
 
 /* Option header */
 .option-container {
   text-align: center;
-  background-color: #EEEEEE;
+  background-color: #f2f8fc;
   padding: 3rem 1rem;
 }
