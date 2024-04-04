@@ -3,7 +3,7 @@
 function createCardElement(item) {
   return `
       <li class="card">
-          <img src="https:${item.image}" alt="">
+          <img src="https:${item.image}" alt="a clipart representing the current weather.">
           <div class="card-content">
               <p class="subheader">
                   ${item.subtitle}
